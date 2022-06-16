@@ -1,0 +1,197 @@
+body{
+    background-color: rgb(230, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile-head{
+    width: 100%;
+    border: 2px solid blue;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-head .profile-head-list{
+    display: flex;
+    width: 85%;
+    height: 70px;
+    height: auto;
+    justify-content: space-between;
+    padding-bottom: 0px;
+}
+.profile-head .profile-head-list .profile-list{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 20px;
+    justify-content: space-around;
+    margin-top: 25px;
+    
+}
+
+.profile-head .profile-head-list .profile-icon{
+    display: flex;
+    list-style: none;
+    width: 10%;
+    height: 20px;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.profile-head .profile-head-list .profile-icon li{
+    font-size: 20px;
+}
+/* nav */
+.profile-nav{
+     border: solid orangered 2px;
+     width: 100%;
+     height: 700px;
+     display: flex;
+     justify-content: space-between;
+}
+.profile-nav-info{
+    width: 20%;
+    height: 600px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+}
+.profile-nav-info .profile-info{
+    width: 100%;
+    text-align: center;
+
+}
+.profile-nav-info .profile-info img{
+    width: 30%;
+    height: 60%;
+    margin-top: 10px;
+    border-radius:80%;
+    border: solid indianred 2px;
+}
+.profile-nav-info .profile-info h3{
+    font-size: 25px;
+}
+.profile-nav-info .profile-info h4{
+    margin-top: -30px;
+}
+.profile-nav-info .profile-nav-list{
+    width: 100%;
+}
+.profile-nav-info .profile-nav-list .profile-nav-unlist{
+    display: flex;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.profile-nav-info .profile-nav-list .profile-nav-unlist .profile-nav-text{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    
+}
+.profile-nav-info .profile-nav-list .profile-nav-unlist .fa-solid{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.fa-angle-right{
+    margin-right: 20px;
+}
+.profile-dashboard{
+    width: 78%;
+    border: solid salmon 2px;
+    height: 700px;
+}
+.profile-order{
+    width: 100%;
+    border: solid greenyellow 2px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-order-body{
+    border: solid firebrick 2px;
+    width: 50%; 
+}
+.profile-order-payment{
+    border: solid navy 2px;
+    width: 50%;
+}
+.profile-order .profile-order-head{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-order-info{
+    width: 100%;
+    height: 470px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: solid 2px mediumorchid;
+
+}
+.profile-order-list{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px tomato;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.profile-order-list .profile-order-img{
+    width: 40%;
+    text-align: center;
+}
+.profile-order-list .profile-order-img img{
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.profile-order-list .profile-order-amount{
+    width: 51%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    position: relative;
+}
+.profile-order-list .profile-order-amount button{
+    position: absolute;
+    right: 2px;
+    bottom: 4px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/*payment*/
+.payment-info{
+    width: 100%;
+    border: solid 2px tomato;
+}
+.payment-list{
+    width: 100%;
+}
+.payment-input{
+    display: flex;
+    height: 30px;
+    width: 25%;
+    justify-content: space-between;
+}
+#payment-icon{
+    display: flex;
+    width: 120px;
+    justify-content: space-around;
+}
+.payment-icon{
+    display: flex;
+    width: 80px;
+    justify-content: space-around;
+    
+}
+.payment-input button{
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 0px;
+}
+.payment-input h3{
+    margin-top: 0px;
+}

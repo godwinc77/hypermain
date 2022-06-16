@@ -1,0 +1,103 @@
+body{
+    width: 100%;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign-up{
+    width: 100%;
+    height: 900px;
+    
+    
+}
+.sign-up-head{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.sign-up-head .fa-user{
+    border: solid 2px brown;
+    font-size: 60px;
+    border-radius: 130px;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    margin-top: 100px;
+}
+.sign-up-unlist{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.sign-up-list{
+    width: 45%;
+    height: 50px;  
+}
+.sign-up-input{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+   font-size: 17px;  
+}
+.gender{
+    width: 100%;
+}
+.gender-info{
+    width: 20%;
+    height: 100px;
+    text-align: center;
+}
+.gender-unlist{
+    display: flex;
+    justify-content: space-around;
+}
+.gender-list{
+    display: flex;
+}
+.gender-list button{
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+.gender-list h3{
+    margin-top: 0px;
+    cursor: pointer;
+    
+}
+.sign-up-button-info{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+#sign-up-button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+
+}
+#word{
+    display: flex;
+    width: 100%;  
+    text-align: center;
+    justify-content: center;
+   
+
+}
+#word #word1{
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}

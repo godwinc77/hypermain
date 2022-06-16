@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+.sign-up-head{
+    height: 230px;
+}
+.sign-up-head .fa-user{
+    margin-top: 50px;
+    
+}
+.sign-up-unlist{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+}
+.sign-up-list{
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+}
+.sign-up-input{
+    width: 100%;
+    height: 30px;
+}
+.gender-info{
+    width: 20%;
+    height: 130px;
+}
+.gender-info h3{
+    font-size: 18px;
+}
+.gender-unlist{
+    width: 100%;
+    flex-direction: column;
+}
+.gender-list h3{
+    font-size: 15px;
+}
+#word{
+    font-size: 15px;
+}

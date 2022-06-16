@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/registerr.css">
+    <link rel="stylesheet" media="screen and (max-width:414px)" href="css/mobile/registermobile.css">
+    <link rel="shortcut icon" href="img/Annotation 2022-04-19 141340.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/0cd43d1304.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form action="/auth/register" method="post">
+    <div class="sign-up">
+        <div class="sign-up-head">
+             <i class="fa-solid fa-user"></i>
+            <h2>CREATE A NEW ACCOUNT</h2>
+        </div>
+        <div class="sign-up-unlist">
+           <div class="sign-up-list">
+            
+               <input class="sign-up-input" type="text" placeholder="First Name" name="firstname">
+           </div>
+            <div class="sign-up-list">
+            
+                <input class="sign-up-input" type="text" placeholder="Last Name" name="lastname">
+            </div>
+            <div class="sign-up-list">
+            
+                <input class="sign-up-input" type="text" placeholder="User Name" name="username">
+            </div>
+            <div class="sign-up-list">
+            
+                <input class="sign-up-input" type="text" placeholder="Email" name="email">
+            </div>
+            
+            <div class="sign-up-list">
+        
+                <input class="sign-up-input" type="password" placeholder="Password" name="password">
+            </div>
+            <div class="sign-up-list">
+        
+                <input class="sign-up-input" type="password" placeholder="Confirm Password" name="password">
+            </div>
+            
+        </div>
+        <div class="gender">
+            <div class="gender-info">
+                <h3 id="text1">GENDER</h3>
+                <div class="gender-unlist">
+                    <div class="gender-list">
+                        <button></button> 
+                        <h3>MALE</h3>
+                    </div>
+                    <div class="gender-list">
+                        <button></button> 
+                        <h3>FEMALE</h3>
+                    </div>
+                </div>
+            </div>
+            
+           
+        </div>
+        <div class="sign-up-button-info">
+            <button id="sign-up-button" type="submit">CREATE ACCOUNT</button>
+            <div id="word">
+                <h3>Already have an account?</h3>
+                <a id="word1"href ="login"> LOGIN</a>
+            </div>
+        </div>
+        
+    </div>
+    </form>
+</body>
+</html>
